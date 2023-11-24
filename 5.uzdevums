@@ -1,0 +1,10 @@
+import datetime
+stunda= datetime.datetime.now().hour
+if 4:00<= stunda < 12:00:
+    Sveiciens="Labrīt"
+elif  12:00<= stunda < 17:00:
+    Sveiciens="Labdien"
+else:
+    Sveiciens="Labvakar"
+
+print(Sveiciens)

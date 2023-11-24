@@ -1,0 +1,9 @@
+
+skaitlis = int(input("Ievadi skaitli: "))
+
+# Pārbaudīsim vai skaitlis dalīsies ar skaitļiem 3 un 7
+if skaitlis % 3 == 0:
+if skaitlis % 7 == 0:
+    print(f"{skaitlis} dalās ar 3 un 7.")
+else:
+    print(f"{skaitlis} nedalās ar 3 un 7.")

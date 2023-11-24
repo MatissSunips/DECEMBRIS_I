@@ -1,0 +1,10 @@
+#Norādu cik ir skaitlis un cik ir kvadrāts
+skaitlis = 1
+kvadrats = skaitlis ** 2
+
+#Kamēr kvadrāts ir lielāks vai vienāds ar 1000
+while kvadrats <= 1000:
+    skaitlis += 1
+    kvadrats = skaitlis ** 2
+    
+print(f"Pirmo skaitli, kura kvardrāts ir lielāks par 1000, ir: {skaitlis}")
